@@ -17,12 +17,12 @@ body{
 }
 
 .botao{
-    background-color: #ffffff;
+    background-color: #0c0909;
     font-family: "Permanent Marker", cursive;
     font-size: 45px;
 text-align: center;
 border-radius: 20px;
-display: flex
+display: flex;
 color:var(--texto1);
 }
 
@@ -57,7 +57,23 @@ width: 110%;
      display: flex;    
 }
 
-.ativo{
+.botao.ativo{
     background: var(--botao-ativo);    
     border-bottom: 4px solid #4b4a4a;
-}      
+}  
+.aba-conteudo.ativo{
+display: block;
+}  
+.aba-conteudo{
+display:none;
+
+}
+
+.aba-conteudo-titulo-principal{
+font-size: 40px;
+text-align:center;
+}
+.aba-conteudo-titulo-secundario{
+color:var(--texto1);
+
+}
