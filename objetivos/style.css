@@ -77,3 +77,9 @@ text-align:center;
 color:var(--texto1);
 
 }
+.contador{
+   font-size: 65px;
+   text-align: center;
+   padding: 1em;
+
+}
